@@ -1,0 +1,25 @@
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(50, 50, 50, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 5px 5px 10px 5px rgba(30, 30, 30, 0.5); /* Drop shadow */
+  max-width: 90%;
+  max-height: 90%;
+}

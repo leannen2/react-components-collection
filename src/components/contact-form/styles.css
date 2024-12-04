@@ -1,0 +1,30 @@
+#contact-form-container {
+  padding: 10px;
+  min-height: 100vh;
+  font-weight: lighter;
+}
+
+#contact-form {
+  font-size: 15px;
+  width: 400px;
+}
+
+.contact-form-input {
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+.contact-form-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#message-input {
+  border: 1px solid #000;
+  border-radius: 5px;
+  height: 300px;
+}
