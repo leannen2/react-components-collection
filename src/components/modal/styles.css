@@ -4,7 +4,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(50, 50, 50, 0.25);
+  background-color: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,7 @@
   background-color: white;
   border-radius: 8px;
   padding: 20px;
-  box-shadow: 5px 5px 10px 5px rgba(30, 30, 30, 0.5); /* Drop shadow */
+  /* box-shadow: 5px 5px 10px 5px rgba(30, 30, 30, 0.8); Drop shadow */
   max-width: 90%;
   max-height: 90%;
 }
