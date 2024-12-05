@@ -1,0 +1,27 @@
+.data-table-pagination-container {
+  padding: 20px;
+  font-weight: normal;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+td,
+th {
+  padding: 4px;
+  border-bottom: 1px solid #ddd;
+  text-align: start;
+}
+
+th {
+  vertical-align: top;
+}
+
+.pagination {
+  display: flex;
+  gap: 1em;
+  height: 2em;
+  align-items: center;
+}

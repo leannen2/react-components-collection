@@ -5,6 +5,7 @@ import Home from "./components/home/Home";
 import ContactForm from "./components/contact-form/ContactForm";
 import HolyGrail from "./components/holy-grail/HolyGrail";
 import TodoList from "./components/to-do-list/TodoList";
+import DataTable from "./components/data-table-pagination/DataTable";
 
 function App() {
   const BASE_URL = "/react-components-collection";
@@ -15,6 +16,10 @@ function App() {
         <Route path={`${BASE_URL}/contact-form`} element={<ContactForm />} />
         <Route path={`${BASE_URL}/holy-grail`} element={<HolyGrail />} />
         <Route path={`${BASE_URL}/todo-list`} element={<TodoList />} />
+        <Route
+          path={`${BASE_URL}/data-table-pagination`}
+          element={<DataTable />}
+        />
       </Routes>
     </BrowserRouter>
   );
