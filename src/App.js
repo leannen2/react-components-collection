@@ -6,6 +6,7 @@ import ContactForm from "./components/contact-form/ContactForm";
 import HolyGrail from "./components/holy-grail/HolyGrail";
 import TodoList from "./components/to-do-list/TodoList";
 import DataTable from "./components/data-table-pagination/DataTable";
+import Tabs from "./components/tabs/Tabs";
 
 function App() {
   const BASE_URL = "/react-components-collection";
@@ -20,6 +21,7 @@ function App() {
           path={`${BASE_URL}/data-table-pagination`}
           element={<DataTable />}
         />
+        <Route path={`${BASE_URL}/tabs`} element={<Tabs />} />
       </Routes>
     </BrowserRouter>
   );

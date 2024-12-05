@@ -1,0 +1,29 @@
+p {
+  font-weight: normal;
+}
+
+.tabs-list {
+  display: flex;
+  gap: 5px;
+}
+
+.tabs-list-item {
+  --active-color: blue;
+
+  background: none;
+  border: 1px solid blue;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 6px 10px;
+  color: blue;
+}
+
+.tabs-list-item:hover {
+  background: darkblue;
+  color: white;
+}
+
+.tabs-list-item--active {
+  background: blue;
+  color: white;
+}

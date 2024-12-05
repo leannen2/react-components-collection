@@ -24,6 +24,10 @@ function Home() {
       >
         Data table that displays user information in a paginated format.
       </ComponentListItem>
+      <ComponentListItem name="Tabs" link={`${BASE_URL}/tabs`}>
+        Tabs component that displays one panel of content at a time depending on
+        the active tab element.
+      </ComponentListItem>
     </div>
   );
 }
