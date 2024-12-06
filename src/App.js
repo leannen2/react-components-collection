@@ -10,20 +10,27 @@ import Tabs from "./components/tabs/Tabs";
 
 function App() {
   const BASE_URL = "/react-components-collection";
+
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path={BASE_URL} element={<Home />} />
-        <Route path={`${BASE_URL}/contact-form`} element={<ContactForm />} />
-        <Route path={`${BASE_URL}/holy-grail`} element={<HolyGrail />} />
-        <Route path={`${BASE_URL}/todo-list`} element={<TodoList />} />
-        <Route
-          path={`${BASE_URL}/data-table-pagination`}
-          element={<DataTable />}
-        />
-        <Route path={`${BASE_URL}/tabs`} element={<Tabs />} />
-      </Routes>
-    </BrowserRouter>
+    <div>
+      <a href={BASE_URL}>
+        <button>Home Page</button>
+      </a>
+
+      <BrowserRouter>
+        <Routes>
+          <Route path={BASE_URL} element={<Home />} />
+          <Route path={`${BASE_URL}/contact-form`} element={<ContactForm />} />
+          <Route path={`${BASE_URL}/holy-grail`} element={<HolyGrail />} />
+          <Route path={`${BASE_URL}/todo-list`} element={<TodoList />} />
+          <Route
+            path={`${BASE_URL}/data-table-pagination`}
+            element={<DataTable />}
+          />
+          <Route path={`${BASE_URL}/tabs`} element={<Tabs />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 
