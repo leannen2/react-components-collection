@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a personal collection of reusable React components, I have created to enhance my React development skills. The collection will grow over time as I experiment with new ideas and techniques.
+This project is a personal collection of React components, I have created to enhance my React development skills. The collection will grow over time as I experiment with new ideas and techniques.
 
 ## Getting Started
 
