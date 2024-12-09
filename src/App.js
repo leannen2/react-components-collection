@@ -7,6 +7,7 @@ import HolyGrail from "./components/holy-grail/HolyGrail";
 import TodoList from "./components/to-do-list/TodoList";
 import DataTable from "./components/data-table-pagination/DataTable";
 import Tabs from "./components/tabs/Tabs";
+import JobBoard from "./components/job-board/JobBoard";
 
 function App() {
   const BASE_URL = "/react-components-collection";
@@ -28,6 +29,7 @@ function App() {
             element={<DataTable />}
           />
           <Route path={`${BASE_URL}/tabs`} element={<Tabs />} />
+          <Route path={`${BASE_URL}/job-board`} element={<JobBoard />} />
         </Routes>
       </BrowserRouter>
     </div>

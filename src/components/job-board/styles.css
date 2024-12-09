@@ -1,0 +1,35 @@
+.job-board-container {
+  min-height: 100vh;
+  background-color: #ede8f5;
+}
+
+.job-board-header {
+  color: #3d52a0;
+}
+
+.job-section-header {
+  color: #7091e6;
+}
+
+.job-section-container {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ede8f5;
+  border-radius: 10px;
+  width: 50em;
+  background-color: white;
+}
+
+.job-section-caption {
+  display: flex;
+  gap: 1em;
+}
+
+.job-section-header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.job-section-header a:hover {
+  text-decoration: underline;
+}
