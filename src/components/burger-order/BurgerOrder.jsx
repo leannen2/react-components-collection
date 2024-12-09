@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function CheckboxRadio() {
+export default function BurgerOrder() {
   const [toppings, setToppings] = useState([]);
   const [burger, setBurger] = useState("");
 

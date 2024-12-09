@@ -8,7 +8,7 @@ import TodoList from "./components/to-do-list/TodoList";
 import DataTable from "./components/data-table-pagination/DataTable";
 import Tabs from "./components/tabs/Tabs";
 import JobBoard from "./components/job-board/JobBoard";
-import CheckboxRadio from "./components/checkbox-radio/CheckboxRadio";
+import BurgerOrder from "./components/burger-order/BurgerOrder";
 
 function App() {
   const BASE_URL = "/react-components-collection";
@@ -33,7 +33,7 @@ function App() {
           <Route path={`${BASE_URL}/job-board`} element={<JobBoard />} />
           <Route
             path={`${BASE_URL}/checkbox-radio`}
-            element={<CheckboxRadio />}
+            element={<BurgerOrder />}
           />
         </Routes>
       </BrowserRouter>
