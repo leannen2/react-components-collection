@@ -28,6 +28,11 @@ function Home() {
         Tabs component that displays one panel of content at a time depending on
         the active tab element.
       </ComponentListItem>
+      <ComponentListItem name="Job Board" link={`${BASE_URL}/job-board`}>
+        Job board that uses Hacker News API to fetch job postings and displays
+        the data in their own componenets. Loads 10 jobs at a time at a click of
+        a button.
+      </ComponentListItem>
     </div>
   );
 }
