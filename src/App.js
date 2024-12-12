@@ -9,6 +9,7 @@ import DataTable from "./components/data-table-pagination/DataTable";
 import Tabs from "./components/tabs/Tabs";
 import JobBoard from "./components/job-board/JobBoard";
 import BurgerOrder from "./components/burger-order/BurgerOrder";
+import ConnectFour from "./components/connect-four/ConnectFour";
 
 function App() {
   const BASE_URL = "/react-components-collection";
@@ -35,6 +36,7 @@ function App() {
             path={`${BASE_URL}/checkbox-radio`}
             element={<BurgerOrder />}
           />
+          <Route path={`${BASE_URL}/connect-four`} element={<ConnectFour />} />
         </Routes>
       </BrowserRouter>
     </div>

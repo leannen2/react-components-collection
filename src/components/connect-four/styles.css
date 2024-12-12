@@ -1,0 +1,25 @@
+.connect-four-table table,
+.connect-four-table tr,
+.connect-four-table td {
+  border: 1px solid black;
+}
+
+.connect-four-table td {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
+
+.space-red {
+  background-color: red;
+}
+
+.space-yellow {
+  background-color: yellow;
+}
+
+.piece {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}

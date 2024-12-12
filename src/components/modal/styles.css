@@ -1,13 +1,17 @@
 .modal-backdrop {
+  /* fixes the position of the modal backdrop to top left */
   position: fixed;
   top: 0;
   left: 0;
+  /* fill the backdrop to the whole screen */
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.7);
+  /* centers modal in the backdrop */
   display: flex;
   justify-content: center;
   align-items: center;
+  /* puts modal on top of all the page content */
   z-index: 1000;
 }
 
