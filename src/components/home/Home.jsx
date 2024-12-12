@@ -33,6 +33,9 @@ function Home() {
         the data in their own componenets. Loads 10 jobs at a time at a click of
         a button.
       </ComponentListItem>
+      <ComponentListItem name="Connect Four" link={`${BASE_URL}/connect-four`}>
+        Two player game of Connect Four with win detection.
+      </ComponentListItem>
     </div>
   );
 }
