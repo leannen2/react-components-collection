@@ -15,7 +15,7 @@ Node.js and npm installed on your machine.
 1. Clone the repository.
 2. Navigate to the project directory:
    ```bash
-   cd react-component-collection`
+   cd react-component-collection
    ```
 3. Install dependencies:
    ```bash
